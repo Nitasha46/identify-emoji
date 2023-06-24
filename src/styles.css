@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #f6f1e9;
+  --van-cleef: #4f200d;
+  --flamingo: #f24c3d;
+}
+
+.App {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--van-cleef);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.meaning {
+  color: var(--flamingo);
+}
+
+.describe {
+  padding: 1rem;
+}
+
+.showcaseEmoji {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
